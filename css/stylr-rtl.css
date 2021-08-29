@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@400;700;900&display=swap');
+body{
+    direction: rtl;
+    font-family: 'Tajawal', sans-serif;
+}
+.navbar{
+
+    box-shadow: 1px 2px 5px #ebebeb;
+}
+
+.about{
+    padding: 50px 0;
+}
+
+.news-left{
+    display: flex;
+}
+.news-left img{
+    margin-left: 10px;
+}
+
+.subscribe{
+    background-image: url(../images/main-banner-1-1600x700.jpg);
+    height: 400px;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    color: aliceblue;
+}
+.subscribe .subscribe-item{
+    margin: auto;
+}
+
+footer{
+    background-color: black;
+    color: blanchedalmond;
+    padding: 50px 0;
+}
+footer img{
+    width: 40px;
+    height: 40px;
+    margin-bottom: 10px;
+}
